@@ -7,14 +7,14 @@ Log analysis involves large volume of data. For an administrator, it is really i
 
 ## How will we do it ?
 The obvious first step in a web log project is the preparation of data.
-  *Filter and retain certain actions.
-  *Identify (or split) dates and make use of them (differences between two dates etc.).
-  *Clean missing or abnormal data.
-  *Geographically locate the IP address.
-  *Work with certain values such as the user agent of a navigator.
-  *Categorize certain actions (from the URL, for example).
-  *Local File Inclusion attempt.
+  * Filter and retain certain actions.
+  * Identify (or split) dates and make use of them (differences between two dates etc.).
+  * Clean missing or abnormal data.
+  * Geographically locate the IP address.
+  * Work with certain values such as the user agent of a navigator.
+  * Categorize certain actions (from the URL, for example).
+  * Local File Inclusion attempt.
 
 ## Steps
-  *First, by using regular expressions to match all the field and for identifying different attacks present on a web application.
-  *Second,
+  * First, by using regular expressions to match all the field and for identifying different attacks present on a web application.
+  * Second,
