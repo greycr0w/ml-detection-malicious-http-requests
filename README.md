@@ -18,4 +18,6 @@ Here are the steps we took:
   * Look for any attack attempts on the content request like: Local File Inclusion attempt, injections,...
 
 
-#### 2. Setting up 
+#### 2. Feature extraction
+
+#### 3. Attack detection
