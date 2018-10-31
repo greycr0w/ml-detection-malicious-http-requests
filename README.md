@@ -19,5 +19,11 @@ Here are the steps we took:
 
 
 #### 2. Feature extraction
-
+So, what do we look for ?
+  * SQL Injections
+  * XMLRPC 
+  * Directory escalation
+  * Request occurence from the same IP adress
+  
+  
 #### 3. Attack detection
