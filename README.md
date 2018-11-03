@@ -15,15 +15,14 @@ Here are the steps we took:
   * Identify (or split) dates and make use of them (differences between two dates etc.).
   * Work with certain values such as the user agent of a navigator.
   * Categorize certain actions (from the URL, for example).
-  * Look for any attack attempts on the content request like: Local File Inclusion attempt, injections,...
+  * Look for any attack attempts on the request content request like: Local File Inclusion attempt, injections,...
 
 
-#### 2. Feature extraction
-So, what do we look for ?
-  * SQL Injections
-  * XMLRPC 
-  * Directory escalation
-  * Request occurence from the same IP adress
+#### 2. Visualize our data
+
+To understand our data, we will try to visualize it from charts, maps, scatter plots,…
   
   
-#### 3. Attack detection
+#### 3. Apply Machine Learning
+
+From there we will choose the relevant features in detecting a hacking attempt and come up with a way to quantify these values. This will allow us to explore the dataset in many ways that give us insight into the different classes/types of request that exist. Such classes would include hackers, bots and regular users. We will then apply some clustering algorithms and analyse the results referring back to the original data to see if you can manually identify the clusters. Once we are happy with our cluster labelling, we can move on to using some supervised learning algorithms and analyse how they perform.
